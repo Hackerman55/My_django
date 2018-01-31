@@ -1,0 +1,12 @@
+{% extends "name_project/base.html" %}
+
+{% block title %}Article ID: {{articles.id}}{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-sm">
+            <h3>{{ articles.title }}</h3>
+            <p>{{ articles.text }}</p>
+        </div>
+    </div>
+{% endblock %}
